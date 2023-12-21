@@ -1,3 +1,7 @@
+BeforeAll {
+    . .\Function.Log-Entry.ps1
+}
+
 
 Describe 'Work Log-Entry' {
     It 'Given a new entry PesterTester in work directory' {
