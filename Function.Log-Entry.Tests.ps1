@@ -16,5 +16,3 @@ Describe 'Training Log-Entry' {
         Test-Path -Path "$env:USERPROFILE\Documents\Training_log\$(get-date -f yyyy-MM-dd) PesterTester" | Should -Be True
     }
 }
-
-<#comment#>
