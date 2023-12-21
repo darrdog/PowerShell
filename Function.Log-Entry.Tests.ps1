@@ -1,3 +1,7 @@
+BeforeAll {
+    . .\Function.Log-Entry.ps1
+}
+
 
 Describe 'Work Log-Entry' {
     It 'Given a new entry PesterTester in work directory' {
@@ -12,5 +16,3 @@ Describe 'Training Log-Entry' {
         Test-Path -Path "$env:USERPROFILE\Documents\Training_log\$(get-date -f yyyy-MM-dd) PesterTester" | Should -Be True
     }
 }
-
-<#comment#>
