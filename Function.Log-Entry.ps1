@@ -20,6 +20,8 @@ function Log-Entry {
         .EXAMPLE
         PS> Log-Entry MyWorkLogEntry Work
         creates a directory named $WorkLogPath\YYYY-MM-DD MyWorkLogEntry
+
+        Test entry
     #>
     
     <#Parameters#>
